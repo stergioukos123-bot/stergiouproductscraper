@@ -1,9 +1,20 @@
-requests.get(url) → κατεβάζει τη σελίδα
+This project is a **Python-based product scraper** that extracts product names and prices from e-commerce or demo websites.
+It is designed for educational purposes and can be easily adapted to other websites with similar HTML structures.
 
-BeautifulSoup(..., "html.parser") → διαβάζειHTML
+The scraper demonstrates how to collect structured product data and export it for further analysis.
 
-find_all("article", class_="product_pod") → βρίσκει όλα τα προϊόντα
+---
 
-product.h3.a['title'] → όνομα βιβλίου
+Features
+- Extracts product names and prices
+- Supports scraping multiple products per page
+- Prints results to the console
+- Optional export to CSV file
 
-product.find("p", class_="price_color").text → βγάζει τιμή
+---
+
+Technologies Used
+- Python 3
+- Requests
+- BeautifulSoup4
+- CSV (built-in Python module)
